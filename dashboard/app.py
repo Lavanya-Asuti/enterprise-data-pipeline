@@ -1,15 +1,21 @@
-import streamlit as st
-import pandas as pd
 from sqlalchemy import create_engine
+import pandas as pd
+import streamlit as st
 
 engine = create_engine(
-    "postgresql://postgres:password@localhost:5432/bankdb"
+    "postgresql://postgres:postgres@host.docker.internal:5432/banking"
 )
 
-df = pd.read_sql("SELECT * FROM transaction", engine)
+df = pd.read_sql(
+    'SELECT * FROM "transaction"',
+    engine
+)
 
-st.title("Banking Analytics Dashboard")
+st.title("Banking ETL Dashboard")
 
-st.write(df)
+st.dataframe(df)
 
-st.bar_chart(df['amount'])
+st.metric(
+    "Total Transactions",
+    len(df)
+)
