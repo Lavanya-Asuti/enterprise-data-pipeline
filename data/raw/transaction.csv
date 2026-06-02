@@ -1,0 +1,5 @@
+transaction_id,customer_id,amount,type,location,timestamp
+1,C001,5000,credit,Bangalore,2026-01-01 10:00:00
+2,C002,75000,debit,Mumbai,2026-01-01 11:00:00
+3,C003,1200,debit,Delhi,2026-01-01 12:00:00
+4,C004,200000,credit,Chennai,2026-01-01 13:00:00
