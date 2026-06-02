@@ -1,10 +1,8 @@
 from sqlalchemy import create_engine
 
 def load(df):
-
-    engine = create_engine(
-        "postgresql://postgres:password@localhost:5432/bankdb"
-    )
+    df.to_csv("output.csv", index=False)
+    print("Data loaded successfully")
 
     df.to_sql(
         "transaction",
