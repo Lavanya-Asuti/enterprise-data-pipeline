@@ -12,10 +12,4 @@ df = pd.read_sql(
 )
 
 st.title("Banking ETL Dashboard")
-
 st.dataframe(df)
-
-st.metric(
-    "Total Transactions",
-    len(df)
-)
