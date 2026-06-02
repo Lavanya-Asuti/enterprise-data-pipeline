@@ -36,7 +36,7 @@ Organizations generate large volumes of transaction data that need to be process
 
 ## Project Structure
 
-![Architecture](screenshots/Project-Structure.png)
+![Project-Structure](screenshots/Project-Structure.png)
 
 ## ETL Process
 
