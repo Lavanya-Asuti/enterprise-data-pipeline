@@ -10,17 +10,7 @@ Organizations generate large volumes of transaction data that need to be process
 
 ## Architecture
 
-Data Source (CSV)
-↓
-Extract
-↓
-Transform
-↓
-PostgreSQL Database
-↓
-Streamlit Dashboard
-↓
-AWS EC2
+![Architecture](screenshots/Architecture.png)
 
 ## Technologies Used
 
@@ -46,17 +36,7 @@ AWS EC2
 
 ## Project Structure
 
-enterprise-data-pipeline/
-├── data/
-├── etl/
-│   ├── extract.py
-│   ├── transform.py
-│   └── load.py
-├── dashboard/
-│   └── app.py
-├── Dockerfile
-├── requirements.txt
-└── run_pipeline.py
+![Architecture](screenshots/Project-Structure.png)
 
 ## ETL Process
 
@@ -130,12 +110,6 @@ Troubleshot PostgreSQL connection issues using logs, container inspection, and S
 * Monitoring with Prometheus and Grafana
 * Docker Compose orchestration
 * Data quality validation checks
-
-# Banking ETL Data Pipeline
-
-## Architecture
-
-![Architecture](screenshots/Architecture.png)
 
 ## Dashboard
 
