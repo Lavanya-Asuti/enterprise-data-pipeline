@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 def load(df):
 
     engine = create_engine(
-        "postgresql://postgres:postgres@host.docker.internal:5432/banking"
+        "postgresql://postgres:postgres@bank-postgres:5432/banking"
     )
 
     df.to_sql(
