@@ -127,3 +127,11 @@ Troubleshot PostgreSQL connection issues using logs, container inspection, and S
 ## Docker Containers
 
 ![Docker](screenshots/Docker-containers.png)
+
+## Author
+
+Lavanya Asuti
+
+GitHub: https://github.com/Lavanya-Asuti
+
+LinkedIn: https://linkedin.com/in/lavanya-asuti
