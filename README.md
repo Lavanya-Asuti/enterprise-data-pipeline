@@ -135,16 +135,21 @@ Troubleshot PostgreSQL connection issues using logs, container inspection, and S
 
 ## Architecture
 
-![Architecture](screenshots/architecture.png)
+![Architecture](screenshots/Architecture.png)
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard-ETL.png)
+![Dashboard](screenshots/Dashboard-Analytics.png)
+
+## S3 Bucket
+
+![AWS](screenshots/AWS-S3-Bucket.png)
 
 ## EC2 Deployment
 
-![EC2](screenshots/ec2-deployment.png)
+![EC2](screenshots/AWS-EC2-Instance.png)
 
 ## Docker Containers
 
-![Docker](screenshots/docker-containers.png)
+![Docker](screenshots/Docker-containers.png)
